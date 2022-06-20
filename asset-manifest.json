@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/BalaPortfolio/static/css/main.6acc9b6f.css",
+    "main.js": "/BalaPortfolio/static/js/main.6b23ef12.js",
+    "static/media/todoList.jpg": "/BalaPortfolio/static/media/todoList.5fdcdcac7d0793395744.jpg",
+    "static/media/restaurant.jpg": "/BalaPortfolio/static/media/restaurant.37423ce7f9172aea2b71.jpg",
+    "static/media/questionMark.jpg": "/BalaPortfolio/static/media/questionMark.97dbbcea5a81b0972d69.jpg",
+    "static/media/react.png": "/BalaPortfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/main-image.jpg": "/BalaPortfolio/static/media/main-image.a76706fdfe1bd0ea7077.jpg",
+    "static/media/github.png": "/BalaPortfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/BalaPortfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/BalaPortfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/BalaPortfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/weatherApp.jpg": "/BalaPortfolio/static/media/weatherApp.24d2bf58afbf6584d247.jpg",
+    "static/media/javascript.png": "/BalaPortfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/BalaPortfolio/index.html",
+    "main.6acc9b6f.css.map": "/BalaPortfolio/static/css/main.6acc9b6f.css.map",
+    "main.6b23ef12.js.map": "/BalaPortfolio/static/js/main.6b23ef12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6acc9b6f.css",
+    "static/js/main.6b23ef12.js"
+  ]
+}
