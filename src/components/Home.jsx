@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import MainImage from "../assets/main-image.jpg";
 import { TbArrowRightTail } from "react-icons/tb";
 import { Link } from "react-scroll";
@@ -15,17 +15,21 @@ const Home = () => {
             I'm a Front End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            A creative and a passionate Frontend Developer with 2 years of
+            A creative and a passionate Frontend Developer with 3+ years of
             professional experience in developing front end applications using
             React.js, Javascript, Tailwind and Bootstrap.
           </p>
           <div>
-            
             {/* adding group so that arrow rotates when hovered over entire portfolio button */}
-            <Link to="portfolio" smooth dueartion={500}  className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-orange-500 to-red-600 cursor-pointer ">
-              Portfolio 
+            <Link
+              to="portfolio"
+              smooth
+              dueartion={500}
+              className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-orange-500 to-red-600 cursor-pointer "
+            >
+              Portfolio
               <span className="group-hover:rotate-90 duration-300">
-                <TbArrowRightTail size={27} className = "ml-2"/>
+                <TbArrowRightTail size={27} className="ml-2" />
               </span>
             </Link>
           </div>
@@ -40,6 +44,6 @@ const Home = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Home
+export default Home;
