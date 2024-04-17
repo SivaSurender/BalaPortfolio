@@ -1,5 +1,5 @@
 {
-  "homepage": "http://SivaSurender.github.io/BalaPortfolio",
+  "homepage": "https://github.com/SivaSurender/BalaPortfolio",
   "name": "portofilo-with-tailwind",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
