@@ -15,7 +15,7 @@ const Home = () => {
             I'm a Front End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            A creative and a passionate Frontend Developer with 3+ years of
+            A creative and a passionate Frontend Developer with 4.5+ years of
             professional experience in developing front end applications using
             React.js, Javascript, Tailwind and Bootstrap.
           </p>

@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://drive.google.com/uc?export=download&id=18fhSiERPSS8Fk5MMtIHqmprbv2v-45Gc",
+      href: "https://drive.google.com/file/d/1HGKEdH6YciaKOC1BDq3OwuS2I8TQ7KyY/view?usp=drive_link",
       style: "rounded-br-md",
       download: true,
     },
@@ -52,7 +52,7 @@ const SocialLinks = () => {
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
-            //adding style at the end if we need to style a particular line 
+            //adding style at the end if we need to style a particular line
             className={
               "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
               " " +
