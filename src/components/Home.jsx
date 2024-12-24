@@ -1,5 +1,5 @@
 import React from "react";
-import MainImage from "../assets/main-image.jpg";
+import MainImage from "../assets/main-image.jpeg";
 import { TbArrowRightTail } from "react-icons/tb";
 import { Link } from "react-scroll";
 
@@ -12,12 +12,12 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Front End Developer
+            I'm an UI Engineer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            A creative and a passionate Frontend Developer with 4.5+ years of
+            A creative and a passionate Frontend Developer with 5+ years of
             professional experience in developing front end applications using
-            React.js, Javascript, Tailwind and Bootstrap.
+            React.js, Javascript, Typescript, Node.js Tailwind and Bootstrap.
           </p>
           <div>
             {/* adding group so that arrow rotates when hovered over entire portfolio button */}
@@ -38,7 +38,7 @@ const Home = () => {
           <img
             src={MainImage}
             alt="my profile pic"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 md:w-2/3"
           />
         </div>
       </div>

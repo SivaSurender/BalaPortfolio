@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -6,10 +6,33 @@ import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import bootstrap from "../assets/bootstrap.png";
-
+import nodeJs from "../assets/node.png";
+import nextJs from "../assets/next.png";
+import redux from "../assets/redux.png";
 
 const Skills = () => {
   const techs = [
+    {
+      id: 4,
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 3,
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
+    },
+    { id: 3, src: redux, title: "Redux", style: "shadow-purple-500" },
+    {
+      id: "Fg",
+      src: nodeJs,
+      title: "NodeJs",
+      style: "shadow-green-500",
+    },
+
+    { id: "dfdg", src: nextJs, title: "NextJs", style: "shadow-gray-500" },
     {
       id: 1,
       src: html,
@@ -22,18 +45,7 @@ const Skills = () => {
       title: "CSS",
       style: "shadow-blue-500",
     },
-    {
-      id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
-    },
+
     {
       id: 5,
       src: tailwind,
@@ -44,7 +56,7 @@ const Skills = () => {
       id: 6,
       src: bootstrap,
       title: "Boootstrap",
-      style: "shadow-white",
+      style: "shadow-purple-500",
     },
     {
       id: 8,
@@ -83,4 +95,4 @@ const Skills = () => {
   );
 };
 
-export default Skills
+export default Skills;
